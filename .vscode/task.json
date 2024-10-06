@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "-cp",
+                "lib/mysql-connector-java-9.0.0.jar",
+                "-d",
+                "bin",
+                "${workspaceFolder}/src/form/UniversityAdmission.java"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$javac"]
+        }
+    ]
+}

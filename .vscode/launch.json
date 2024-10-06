@@ -1,0 +1,12 @@
+{
+    "type": "java",
+    "name": "Launch UniversityAdmission",
+    "request": "launch",
+    "mainClass": "form.UniversityAdmission",
+    "cwd": "${workspaceFolder}/src",
+    "classpath": [
+        "${workspaceFolder}/lib/mysql-connector-java-9.0.0.jar",
+        "${workspaceFolder}/src"
+    ]
+}
+
